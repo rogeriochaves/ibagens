@@ -1,0 +1,25 @@
+{
+ "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["bookmarklet.js"]
+    }
+ ],
+ "browser_action": {
+ "default_icon": "icon-128.png"
+ },
+ "name": "Ibagens",
+ "description": "Substitui todas as palavras \"imagens\" por \"ibagens\"",
+ "homepage_url": "http://4.bp.blogspot.com/_YGnwQ9XZ8M8/TE0jmfozplI/AAAAAAAAADk/hkL45Au3xIU/s1600/ibagens.jpg",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "manifest_version": 2,
+ "version": "0.1"
+}
